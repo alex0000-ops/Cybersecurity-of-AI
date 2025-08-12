@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+logseq/.recycle/
+logseq/bak/
+logseq/.cache/
+logseq/db/
+logseq/.history/
+public/
+dist/
+*.zip
+*.tar.gz
