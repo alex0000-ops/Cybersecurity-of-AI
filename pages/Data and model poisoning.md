@@ -47,6 +47,7 @@
 -
 - ### Label flipping 
   In label flipping attacks, malicious actors manipulate the labels in training data, swapping correct labels with incorrect ones.
+  Label-flipping attacks refer to a class of [adversarial attacks](https://securing.ai/ai-security/adversarial-attacks-ai/) that specifically target the labeled data used to train [supervised machine learning](https://www.ibm.com/topics/supervised-learning#:~:text=the%20next%20step-,What%20is%20supervised%20learning%3F,data%20or%20predict%20outcomes%20accurately.) models.
   
   In these attacks, adversaries tamper with the labels of training data, subtly altering them to cause misclassification. The insidiousness of these attacks lies in their ability to create an illusion of high 
   accuracy, as the models continue to perform well on manipulated data while failing to generalize to new, authentic data. Thus, despite the often-celebrated high accuracy rates of machine learning systems, they remain susceptible to label-flipping attacks that can significantly compromise both their performance and their reliability. [zdroj](https://securing.ai/ai-security/label-flipping-ai/)
