@@ -45,6 +45,7 @@
 -
 -
 - -- utoky podla techniky
+- ![image.png](../assets/image_1755620280987_0.png)[zdroj obrazka](https://medium.com/@enesalku/the-undiscovered-hazards-of-data-poisoning-in-ai-and-fine-tuning-models-af0e96fa5046)
 -
 - ### Label flipping (mislabeling)
   In label flipping attacks, malicious actors manipulate the labels in training data, swapping correct labels with incorrect ones.
