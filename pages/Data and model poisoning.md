@@ -50,7 +50,7 @@
   Label-flipping attacks refer to a class of [adversarial attacks](https://securing.ai/ai-security/adversarial-attacks-ai/) that specifically target the labeled data used to train [supervised machine learning](https://www.ibm.com/topics/supervised-learning#:~:text=the%20next%20step-,What%20is%20supervised%20learning%3F,data%20or%20predict%20outcomes%20accurately.) models.
   
   In these attacks, adversaries tamper with the labels of training data, subtly altering them to cause misclassification. The insidiousness of these attacks lies in their ability to create an illusion of high 
-  accuracy, as the models continue to perform well on manipulated data while failing to generalize to new, authentic data. Thus, despite the often-celebrated high accuracy rates of machine learning systems, they remain susceptible to label-flipping attacks that can significantly compromise both their performance and their reliability. [zdroj](https://securing.ai/ai-security/label-flipping-ai/)
+  accuracy, as the models continue to perform well on manipulated data while failing to generalize to new, authentic data. Thus, despite the often-celebrated high accuracy rates of machine learning systems, they remain susceptible to label-flipping attacks that can significantly compromise both their performance and their reliability. 
   
   Because these alterations happen at the data level before the training 
   process even begins, they can be especially insidious, introducing 
@@ -61,7 +61,7 @@
   may still achieve a high accuracy rate during training and validation, 
   albeit a misleading one. The attack tricks the model into thinking it is
    performing well because it is being tested on compromised data, which 
-  aligns with the incorrect associations it has learned.
+  aligns with the incorrect associations it has learned.[zdroj](https://securing.ai/ai-security/label-flipping-ai/)
 -
 - ### Feature poisoning (Data Manipulation)
 -
@@ -70,7 +70,6 @@
 - ### Backdoor attacks 
   are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
--
 -
 - ### Clean-label attacks
 -
