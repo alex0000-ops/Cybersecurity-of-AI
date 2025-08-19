@@ -72,6 +72,8 @@
 - ### Backdoor attacks 
   are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
+  
+  **Backdoor attack** môže byť integrity (model reaguje na trigger) alebo confidentiality (trigger vyťahuje privátne údaje).
 -
 - ### Clean-label attacks
   Clean-label (CL) attack is a form of data poisoning attack where an adversary modifies only the textual input of the training data, without requiring access to the labeling function. CL attacks are relatively unexplored in NLP, as compared to label flipping (LF) attacks, where the latter additionally requires access to the labeling function as well. While CL attacks are more resilient to data sanitization and manual relabeling methods than LF attacks, they often demand as high as ten times the poisoning
@@ -86,6 +88,8 @@
 	-
 	- **data injection** - occurs when malicious samples are added to the training dataset, with 
 	  the goal of manipulating the model’s behavior during deployment. The problem with these manipulations is that the source where malicious data was injected is untraceable. The bias gradually becomes subtly apparent long after the model has already been deployed.
+	  
+	  **Data injection** môže slúžiť na availability (pridanie noise) alebo integrity (špecifické vzory).
 	-
 	- **mislabeling attacks** - The attacker modifies the dataset by assigning incorrect labels to a portion of the training data. The model learns from this corrupted data and becomes less accurate 
 	  during deployment, rendering the model useless and unreliable.
