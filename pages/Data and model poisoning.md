@@ -55,6 +55,13 @@
   Because these alterations happen at the data level before the training 
   process even begins, they can be especially insidious, introducing 
   long-lasting biases and vulnerabilities into the trained model.
+  
+  Because these attacks happen at the data level, and the machine learning
+   model is designed to minimize the error based on that data, the model 
+  may still achieve a high accuracy rate during training and validation, 
+  albeit a misleading one. The attack tricks the model into thinking it is
+   performing well because it is being tested on compromised data, which 
+  aligns with the incorrect associations it has learned.
 -
 -
 -
