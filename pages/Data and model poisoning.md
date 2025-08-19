@@ -12,7 +12,7 @@
 -
 - ![image.png](../assets/image_1753735433654_0.png) [image 2](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
 -
--
+- --utoky podla fazy AI/
 - id:: 6887da62-477c-4d28-b2df-38a0e9297dcc
   Data poisoning can target different stages of the LLM lifecycle, including
 	- pre-training (learning from general data)
@@ -22,6 +22,8 @@
 	- **Pre-training:** The process where a model is trained on a large dataset to understand general linguistic patterns.
 	- **Fine-tuning:** Adapting a pre-trained model to a specific task or domain using a curated dataset.
 	- **Embedding:** The conversion of categorical data into numerical representations that the model can process. [zdroj](https://medium.com/@anandpawar26/ep04-llm03-training-data-poisoning-2a836fc8a973)
+-
+-
 -
 - Backdoor attacks are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
