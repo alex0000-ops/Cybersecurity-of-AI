@@ -11,6 +11,8 @@
 -
 -
 - ![image.png](../assets/image_1753735433654_0.png) [image 2](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
+-
+-
 - Data poisoning can target different stages of the LLM lifecycle, including pre-training (learning from general data), fine-tuning (adapting models to specific tasks), and embedding (converting text into
   id:: 6887da62-477c-4d28-b2df-38a0e9297dcc
    numerical vectors). [3](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
