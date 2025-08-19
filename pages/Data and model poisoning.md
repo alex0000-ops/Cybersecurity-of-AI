@@ -12,7 +12,7 @@
 -
 - ![image.png](../assets/image_1753735433654_0.png) [image 2](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
 -
-- --utoky podla fazy AI/
+- --utoky podla fazy AI/ML lifecycle
 - id:: 6887da62-477c-4d28-b2df-38a0e9297dcc
   Data poisoning can target different stages of the LLM lifecycle, including
 	- pre-training (learning from general data)
