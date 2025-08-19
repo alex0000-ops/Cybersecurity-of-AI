@@ -44,6 +44,9 @@
 -
 -
 - -- utoky podla techniky
+-
+- ### Label flipping
+-
 - Backdoor attacks are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
 -
