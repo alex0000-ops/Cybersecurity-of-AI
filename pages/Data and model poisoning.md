@@ -8,33 +8,22 @@
 -
 - impact:
 	- Biases Introduced into Decision-Making
+	  Biases introduced through data poisoning can distort a model's perception of data, leading
+	  to skewed outputs and erroneous conclusions. These biases might manifest in various ways, such as racial or gender discrimination, which is particularly harmful in applications like recruitment or credit scoring.
+	- ### Reduced Accuracy, Precision, and Recall
 	  
-	  Biases introduced 
-	  through data poisoning can distort a model's perception of data, leading
-	  to skewed outputs and erroneous conclusions. These biases might 
-	  manifest in various ways, such as racial or gender discrimination, which
-	  is particularly harmful in applications like recruitment or credit 
-	  scoring. 
+	  Data 
+	  poisoning can significantly reduce a model's accuracy, precision, and 
+	  recall. The quality of the predictions or classifications degrades, 
+	  leading to higher error rates. This drop in performance can disrupt 
+	  applications relying on high accuracy, resulting in poor user 
+	  experiences and decision-making failures.
 	  
-	  As LLMs integrate deeper into societal functions, these 
-	  biases could perpetuate systemic inefficiencies or injustices. The roots
-	  of bias in AI models stem from their training data, which, when 
-	  poisoned, shifts the model's understanding in favor of erroneous 
-	  patterns.
-- ### Reduced Accuracy, Precision, and Recall
-  
-  Data 
-  poisoning can significantly reduce a model's accuracy, precision, and 
-  recall. The quality of the predictions or classifications degrades, 
-  leading to higher error rates. This drop in performance can disrupt 
-  applications relying on high accuracy, resulting in poor user 
-  experiences and decision-making failures.
-  
-  Accuracy refers to a 
-  model's ability to predict or classify correctly. When training data is 
-  corrupted, the model might learn incorrect associations, leading to 
-  decreased precision—its ability to consistently perform—and recall—its 
-  effectiveness in identifying all relevant instances.
+	  Accuracy refers to a 
+	  model's ability to predict or classify correctly. When training data is 
+	  corrupted, the model might learn incorrect associations, leading to 
+	  decreased precision—its ability to consistently perform—and recall—its 
+	  effectiveness in identifying all relevant instances.
 - ### Potential for System Failure or Exploitation
   
   When
