@@ -45,11 +45,16 @@
 -
 - -- utoky podla techniky
 -
-- ### Label flipping
+- ### Label flipping 
+  In label flipping attacks, malicious actors manipulate the labels in training data, swapping correct labels with incorrect ones.
+-
+- ### Data injection
 -
 - Backdoor attacks are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
 -
+-
+- ### Clean-label attacks
 -
 - types:
 	- **backdoor attacks** - In a attackers embed hidden triggers within the training data. These 
