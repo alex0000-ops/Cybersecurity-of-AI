@@ -51,6 +51,11 @@
   
   In these attacks, adversaries tamper with the labels of training data, subtly altering them to cause misclassification. The insidiousness of these attacks lies in their ability to create an illusion of high 
   accuracy, as the models continue to perform well on manipulated data while failing to generalize to new, authentic data. Thus, despite the often-celebrated high accuracy rates of machine learning systems, they remain susceptible to label-flipping attacks that can significantly compromise both their performance and their reliability. [zdroj](https://securing.ai/ai-security/label-flipping-ai/)
+- Because these alterations happen at the data level before the training 
+  process even begins, they can be especially insidious, introducing 
+  long-lasting biases and vulnerabilities into the trained model.
+-
+-
 -
 - ### Data injection
 -
