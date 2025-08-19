@@ -43,7 +43,7 @@
 	- **Embedding:** The conversion of categorical data into numerical representations that the model can process. [zdroj](https://medium.com/@anandpawar26/ep04-llm03-training-data-poisoning-2a836fc8a973)
 -
 -
--
+- -- utoky podla techniky
 - Backdoor attacks are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
 -
@@ -66,6 +66,8 @@
 -
 - Clustering methods can be particularly effective in spotting outliers. Advanced ML models can learn to recognize patterns associated with poisoned data, providing an additional layer of security.
 -
+-
+- --mitigation
 - defence strategies:
 	- data validation
 	- secure data storage
