@@ -111,3 +111,6 @@
 	- diverse data sources
 	- robust learning
 	- provenance tracking
+	- **Differential Privacy** – znižuje účinnosť poisoning útokov,
+	- **K-means / clustering detectory**,
+	- **Spectral signatures** – špecificky na backdoor detekciu.
