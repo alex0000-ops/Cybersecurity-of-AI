@@ -74,6 +74,9 @@
 - ### Clean-label attacks
   Clean-label (CL) attack is a form of data poisoning attack where an adversary modifies only the textual input of the training data, without requiring access to the labeling function. CL attacks are relatively unexplored in NLP, as compared to label flipping (LF) attacks, where the latter additionally requires access to the labeling function as well. While CL attacks are more resilient to data sanitization and manual relabeling methods than LF attacks, they often demand as high as ten times the poisoning
   budget than LF attacks. [zdroj](https://aclanthology.org/2023.repl4nlp-1.1.pdf)
+  
+  In clean-label attacks, attackers modify the data in ways that are difficult to detect. The key characteristic is that the poisoned data still appears correctly labeled, making it challenging for 
+  traditional data validation methods to identify. These attacks use the complexity of modern machine learning and deep learning systems, which can fail to flag small, seemingly innocuous changes. Clean-label attacks are among the [stealthiest](https://research.ibm.com/publications/stealthy-poisoning-attack-on-certified-robustness), leaving AI models vulnerable to skewed outputs and degrading model functions. [zdroj](https://www.ibm.com/think/topics/data-poisoning)
 -
 - types:
 	- **backdoor attacks** - In a attackers embed hidden triggers within the training data. These 
