@@ -117,12 +117,6 @@
 -
 -
 - --impact
-- ### Misclassification and reduced performance
-  Poisoned training datasets can cause machine learning 
-  models to misclassify inputs, undermining the reliability 
-  and functions of AI models. In consumer-facing applications, this can 
-  cause inaccurate recommendations that erode customer trust and [experience](https://www.ibm.com/topics/customer-experience). Similarly, in [supply chain management](https://www.ibm.com/think/topics/supply-chain-management), poisoned
-  data can cause flawed forecasts, delays and errors, damaging both model
-  performance and business efficacy. These misclassifications 
-  expose vulnerabilities in the training data and can compromise the 
-  overall robustness of AI systems.
+- Misclassification and reduced performance
+- Bias and skewed decision-making
+- Security vulnerabilities and backdoor threats
