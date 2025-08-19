@@ -15,9 +15,10 @@
 -
 - id:: 6887da62-477c-4d28-b2df-38a0e9297dcc
   Data poisoning can target different stages of the LLM lifecycle, including
-- pre-training (learning from general data),
-- fine-tuning (adapting models to specific tasks), and embedding (converting text into
-   numerical vectors). [3](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
+	- pre-training (learning from general data)
+	- fine-tuning (adapting models to specific tasks)
+	- embedding (converting text into
+	   numerical vectors). [3](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
 -
 - Backdoor attacks are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
