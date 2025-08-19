@@ -19,6 +19,9 @@
 	- fine-tuning (adapting models to specific tasks)
 	- embedding (converting text into
 	   numerical vectors). [3](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
+	- **Pre-training:** The process where a model is trained on a large dataset to understand general linguistic patterns.
+	- **Fine-tuning:** Adapting a pre-trained model to a specific task or domain using a curated dataset.
+	- **Embedding:** The conversion of categorical data into numerical representations that the model can process. [zdroj](https://medium.com/@anandpawar26/ep04-llm03-training-data-poisoning-2a836fc8a973)
 -
 - Backdoor attacks are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
