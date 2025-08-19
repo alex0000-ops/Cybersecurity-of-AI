@@ -25,8 +25,8 @@
 	  integrated environments where multiple systems rely on shared model insights. Ensuring resilient architecture with fail-safes against poisoned data manipulation can prevent cascading failures. [zdroj](https://www.pynt.io/learning-hub/llm-security/what-is-training-data-poisoning-in-llms-6-ways-to-prevent-it)
 -
 - based on their intent:
-	- **Targeted Attacks**: The adversary aims to influence the model's behavior for specific inputs without degrading its overall performance. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
-	- **Nontargeted Attacks**: The goal here is to degrade the model's overall performance. By adding noise or irrelevant data points, the attacker can reduce the accuracy, precision, or recall of the model across various inputs. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
+	- **Targeted Attacks (inte)**: The adversary aims to influence the model's behavior for specific inputs without degrading its overall performance. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
+	- **Nontargeted Attacks (availability)** : The goal here is to degrade the model's overall performance. By adding noise or irrelevant data points, the attacker can reduce the accuracy, precision, or recall of the model across various inputs. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
 -
 -
 - ![image.png](../assets/image_1753735433654_0.png) [image 2](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
