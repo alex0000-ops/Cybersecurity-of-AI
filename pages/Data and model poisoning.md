@@ -10,13 +10,10 @@
 	- Biases Introduced into Decision-Making
 	  Biases introduced through data poisoning can distort a model's perception of data, leading
 	  to skewed outputs and erroneous conclusions. These biases might manifest in various ways, such as racial or gender discrimination, which is particularly harmful in applications like recruitment or credit scoring.
-	- ### Reduced Accuracy, Precision, and Recall
+	- Reduced Accuracy, Precision, and Recall
 	  
-	  Data 
-	  poisoning can significantly reduce a model's accuracy, precision, and 
-	  recall. The quality of the predictions or classifications degrades, 
-	  leading to higher error rates. This drop in performance can disrupt 
-	  applications relying on high accuracy, resulting in poor user 
+	  Data poisoning can significantly reduce a model's accuracy, precision, and 
+	  recall. The quality of the predictions or classifications degrades, leading to higher error rates. This drop in performance can disrupt applications relying on high accuracy, resulting in poor user 
 	  experiences and decision-making failures.
 	  
 	  Accuracy refers to a 
