@@ -4,7 +4,50 @@
   deleting selected data points in a training dataset, adversaries can induce biases, errors, or specific vulnerabilities that manifest when the compromised model makes decisions or predictions. [1](https://www.nightfall.ai/ai-security-101/data-poisoning) -- definicia 1 
   
   Data poisoning is a type of adversarial attack that targets AI and machine learning (ML) model training datasets to degrade or control model behavior. Attackers try to slip misleading or incorrect information into the training dataset by adding new data, changing existing data, or even deleting some data to corrupt the model’s understanding. [2](https://www.wiz.io/academy/data-poisoning)  -- definicia 2
-	-
+-
+-
+- impact:
+	- ### Biases Introduced into Decision-Making
+	  
+	  Biases introduced 
+	  through data poisoning can distort a model's perception of data, leading
+	  to skewed outputs and erroneous conclusions. These biases might 
+	  manifest in various ways, such as racial or gender discrimination, which
+	  is particularly harmful in applications like recruitment or credit 
+	  scoring. 
+	  
+	  As LLMs integrate deeper into societal functions, these 
+	  biases could perpetuate systemic inefficiencies or injustices. The roots
+	  of bias in AI models stem from their training data, which, when 
+	  poisoned, shifts the model's understanding in favor of erroneous 
+	  patterns.
+- ### Reduced Accuracy, Precision, and Recall
+  
+  Data 
+  poisoning can significantly reduce a model's accuracy, precision, and 
+  recall. The quality of the predictions or classifications degrades, 
+  leading to higher error rates. This drop in performance can disrupt 
+  applications relying on high accuracy, resulting in poor user 
+  experiences and decision-making failures.
+  
+  Accuracy refers to a 
+  model's ability to predict or classify correctly. When training data is 
+  corrupted, the model might learn incorrect associations, leading to 
+  decreased precision—its ability to consistently perform—and recall—its 
+  effectiveness in identifying all relevant instances.
+- ### Potential for System Failure or Exploitation
+  
+  When
+  models operate on poisoned data, the risk of systemic failure or 
+  exploitation increases. An adversary could craft data poisoning 
+  strategies to trigger failures, such as denial-of-service attacks or 
+  unintended behavior in AI-driven processes. 
+  
+  AI systems exploiting
+  poisoned models can become gateways for further attacks, especially in 
+  integrated environments where multiple systems rely on shared model 
+  insights. Ensuring resilient architecture with fail-safes against 
+  poisoned data manipulation can prevent cascading failures.
 - based on their intent:
 	- **Targeted Attacks**: The adversary aims to influence the model's behavior for specific inputs without degrading its overall performance. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
 	- **Nontargeted Attacks**: The goal here is to degrade the model's overall performance. By adding noise or irrelevant data points, the attacker can reduce the accuracy, precision, or recall of the model across various inputs. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
