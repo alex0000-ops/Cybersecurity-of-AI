@@ -70,6 +70,7 @@
 	- data separation
 	- model validation
 	- model ensembles
+	- anomaly detection
 	- regular model auditing
 	- diverse data sources
 	- robust learning
