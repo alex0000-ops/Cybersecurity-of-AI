@@ -1,0 +1,64 @@
+{:blocks (
+{:block/created-at 1755613485380
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:index 0
+:scale [1 1]
+:type "image"
+:assetId "3ef26a10-7d08-11f0-b781-6d6f7fd04759"
+:size [918.1398713826367 349.5]
+:opacity 1
+:id "3ef99600-7d08-11f0-b781-6d6f7fd04759"
+:isAspectRatioLocked true
+:isLocked false
+:objectFit "fill"
+:point [74.25 153.75]
+:parentId "68a488e9-328c-46b7-aa96-5eb78b88649e"
+:nonce 1755613481858
+:clipping 0}}
+:block/updated-at 1755613485380} 
+{:block/created-at 1755613541773
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:index 1
+:scale [1 1]
+:type "image"
+:assetId "4f3f1530-7d08-11f0-b781-6d6f7fd04759"
+:size [912 456]
+:opacity 1
+:id "4f424980-7d08-11f0-b781-6d6f7fd04759"
+:isAspectRatioLocked true
+:isLocked false
+:objectFit "fill"
+:point [80 512]
+:parentId "68a488e9-328c-46b7-aa96-5eb78b88649e"
+:nonce 1755613509318
+:clipping 0}}
+:block/updated-at 1755613541773})
+:pages (
+{:block/uuid #uuid "68a488e9-328c-46b7-aa96-5eb78b88649e"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "68a488e9-328c-46b7-aa96-5eb78b88649e"
+:name "struktura"
+:bindings 
+{}
+:nonce 1
+:assets [
+{:id "3ef26a10-7d08-11f0-b781-6d6f7fd04759"
+:type "image"
+:src "../assets/image_1755613481744_0.png"
+:size [817 311]} 
+{:id "4f3f1530-7d08-11f0-b781-6d6f7fd04759"
+:type "image"
+:src "../assets/image_1755613509105_0.png"
+:size [800 400]}]
+:shapes-index ("3ef99600-7d08-11f0-b781-6d6f7fd04759" "4f424980-7d08-11f0-b781-6d6f7fd04759")}}
+:block/updated-at 1755613541773
+:block/created-at 1755613417823
+:block/type "whiteboard"
+:block/name "struktura"
+:block/original-name "Struktura"})}
