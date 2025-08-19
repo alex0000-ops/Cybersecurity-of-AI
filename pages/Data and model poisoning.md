@@ -1,7 +1,9 @@
 - ![image.png](../assets/image_1753730775585_0.png) [image 1](https://massedcompute.com/faq-answers/?question=What%20is%20the%20difference%20between%20data%20poisoning%20and%20adversarial%20attacks%20in%20machine%20learning?)
 -
 - Data poisoning involves the deliberate  and  malicious contamination of data to compromise the performance of AI and ML systems. It attacks strike at the training phase. By introducing, modifying, or 
-  deleting selected data points in a training dataset, adversaries can induce biases, errors, or specific vulnerabilities that manifest when the compromised model makes decisions or predictions. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)based on their intent:
+  deleting selected data points in a training dataset, adversaries can induce biases, errors, or specific vulnerabilities that manifest when the compromised model makes decisions or predictions. [1](https://www.nightfall.ai/ai-security-101/data-poisoning) -- definicia 1
+  
+  based on their intent:
 	- **Targeted Attacks**: The adversary aims to influence the model's behavior for specific inputs without degrading its overall performance. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
 	- **Nontargeted Attacks**: The goal here is to degrade the 
 	  model's overall performance. By adding noise or irrelevant data points, 
