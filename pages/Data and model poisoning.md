@@ -7,7 +7,7 @@
 -
 -
 - impact:
-	- ### Biases Introduced into Decision-Making
+	- Biases Introduced into Decision-Making
 	  
 	  Biases introduced 
 	  through data poisoning can distort a model's perception of data, leading
