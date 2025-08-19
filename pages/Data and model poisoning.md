@@ -4,14 +4,15 @@
   deleting selected data points in a training dataset, adversaries can induce biases, errors, or specific vulnerabilities that manifest when the compromised model makes decisions or predictions. [1](https://www.nightfall.ai/ai-security-101/data-poisoning) -- definicia 1 
   
   Data poisoning is a type of adversarial attack that targets AI and machine learning (ML) model training datasets to degrade or control model behavior. Attackers try to slip misleading or incorrect information into the training dataset by adding new data, changing existing data, or even deleting some data to corrupt the model’s understanding. [2](https://www.wiz.io/academy/data-poisoning)  -- definicia 2
+	-
+- based on their intent:
+	- **Targeted Attacks**: The adversary aims to influence the model's behavior for specific inputs without degrading its overall performance. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
 	- **Nontargeted Attacks**: The goal here is to degrade the 
 	  model's overall performance. By adding noise or irrelevant data points, 
 	  the attacker can reduce the accuracy, precision, or recall of the model 
 	  across various inputs. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
-	-
-- based on their intent:
-	- **Targeted Attacks**: The adversary aims to influence the model's behavior for specific inputs without degrading its overall performance. [1](https://www.nightfall.ai/ai-security-101/data-poisoning)
-	-
+-
+-
 - ![image.png](../assets/image_1753735433654_0.png) [image 2](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
 - Data poisoning can target different stages of the LLM lifecycle, including pre-training (learning from general data), fine-tuning (adapting models to specific tasks), and embedding (converting text into
   id:: 6887da62-477c-4d28-b2df-38a0e9297dcc
