@@ -64,6 +64,9 @@
   albeit a misleading one. The attack tricks the model into thinking it is
    performing well because it is being tested on compromised data, which 
   aligns with the incorrect associations it has learned.[zdroj](https://securing.ai/ai-security/label-flipping-ai/)
+  
+  
+  Nightshade https://nightshade.cs.uchicago.edu/whatis.html
 -
 - ### Feature poisoning (Data Manipulation)
 -
