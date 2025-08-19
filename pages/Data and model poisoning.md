@@ -72,18 +72,8 @@
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
 -
 - ### Clean-label attacks
-  Clean-label (CL) attack is a form of data poi-
-  soning attack where an adversary modifies only
-  the textual input of the training data, without
-  requiring access to the labeling function. CL
-  attacks are relatively unexplored in NLP, as
-  compared to label flipping (LF) attacks, where
-  the latter additionally requires access to the la-
-  beling function as well. While CL attacks are
-  more resilient to data sanitization and manual
-  relabeling methods than LF attacks, they of-
-  ten demand as high as ten times the poisoning
-  budget than LF attacks
+  Clean-label (CL) attack is a form of data poisoning attack where an adversary modifies only the textual input of the training data, without requiring access to the labeling function. CL attacks are relatively unexplored in NLP, as compared to label flipping (LF) attacks, where the latter additionally requires access to the labeling function as well. While CL attacks are more resilient to data sanitization and manual relabeling methods than LF attacks, they often demand as high as ten times the poisoning
+  budget than LF attacks. [zdroj](https://aclanthology.org/2023.repl4nlp-1.1.pdf)
 -
 - types:
 	- **backdoor attacks** - In a attackers embed hidden triggers within the training data. These 
