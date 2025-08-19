@@ -67,7 +67,9 @@
 - defence strategies:
 	- data validation
 	- secure data storage
-	-
+	- data separation
+	- model validation
+	- model ensembles
 	- regular model auditing
 	- diverse data sources
 	- robust learning
