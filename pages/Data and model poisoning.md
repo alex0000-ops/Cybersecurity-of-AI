@@ -114,3 +114,15 @@
 	- **Differential Privacy** – znižuje účinnosť poisoning útokov,
 	- **K-means / clustering detectory**,
 	- **Spectral signatures** – špecificky na backdoor detekciu.
+-
+-
+- --impact
+- ### Misclassification and reduced performance
+  Poisoned training datasets can cause machine learning 
+  models to misclassify inputs, undermining the reliability 
+  and functions of AI models. In consumer-facing applications, this can 
+  cause inaccurate recommendations that erode customer trust and [experience](https://www.ibm.com/topics/customer-experience). Similarly, in [supply chain management](https://www.ibm.com/think/topics/supply-chain-management), poisoned
+  data can cause flawed forecasts, delays and errors, damaging both model
+  performance and business efficacy. These misclassifications 
+  expose vulnerabilities in the training data and can compromise the 
+  overall robustness of AI systems.
