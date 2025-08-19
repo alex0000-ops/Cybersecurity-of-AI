@@ -39,7 +39,8 @@
 	- embedding (converting text into
 	   numerical vectors). [3](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/)
 	- **Pre-training:** The process where a model is trained on a large dataset to understand general linguistic patterns.
-	- **Fine-tuning:** Adapting a pre-trained model to a specific task or domain using a curated dataset.
+	- **Fine-tuning:** Adapting a pre-trained model to a specific task or domain using a curated dataset. 
+	  https://rodtrent.substack.com/p/must-learn-ai-security-part-12-reward
 	- **Embedding:** The conversion of categorical data into numerical representations that the model can process. [zdroj](https://medium.com/@anandpawar26/ep04-llm03-training-data-poisoning-2a836fc8a973)
 -
 -
