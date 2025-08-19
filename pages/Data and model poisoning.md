@@ -98,6 +98,9 @@
 -
 - Clustering methods can be particularly effective in spotting outliers. Advanced ML models can learn to recognize patterns associated with poisoned data, providing an additional layer of security.
 -
+- ![](https://cdn.prod.website-files.com/66f4503c3d0f4d4a75074a18/67d40595c8f83a741aebe127_67b0f959568647902fea8560_fig_poisoning-scaling-summary-figure.svg)
+- ![](https://cdn.prod.website-files.com/66f4503c3d0f4d4a75074a18/67d40595c8f83a741aebe127_67b0f959568647902fea8560_fig_poisoning-scaling-summary-figure.svg)
+-
 -
 - --mitigation
 - defence strategies:
