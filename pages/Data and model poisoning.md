@@ -47,12 +47,6 @@
 - Backdoor attacks are increasingly relevant in a world where users often rather than building models from scratch. The danger lies in the fact that these externally sourced models, especially those trained on rare datasets and thus more valuable, can be tampered with by malicious 
   providers. [5](https://www.cobalt.io/blog/backdoor-attacks-on-ai-models)
 -
-- defence strategies:
-	- data validation
-	- regular model auditing
-	- diverse data sources
-	- robust learning
-	- provenance tracking
 -
 - types:
 	- **backdoor attacks** - In a attackers embed hidden triggers within the training data. These 
@@ -70,4 +64,11 @@
 -
 - Clustering methods can be particularly effective in spotting outliers. Advanced ML models can learn to recognize patterns associated with poisoned data, providing an additional layer of security.
 -
--
+- defence strategies:
+	- data validation
+	- secure data storage
+	-
+	- regular model auditing
+	- diverse data sources
+	- robust learning
+	- provenance tracking
