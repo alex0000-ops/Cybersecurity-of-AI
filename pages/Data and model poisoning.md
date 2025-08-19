@@ -104,6 +104,9 @@
 -
 - ![image.png](../assets/image_1755632106236_0.png) [zdroj obrazka](https://far.ai/news/gpt-4o-guardrails-gone-data-poisoning-jailbreak-tuning)
 -
+- ![image.png](../assets/image_1755632816328_0.png)
+-
+-
 -
 -
 - --mitigation
