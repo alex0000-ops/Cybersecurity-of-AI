@@ -93,4 +93,16 @@
 -
 -
 - ## Projected Gradient Descent (PGD)
--
+- Advantage of PGD:
+	- **Robust Adversarial Examples**:
+	  PGD is known for generating adversarial examples that are robust across
+	  various models, making it a potent tool for evaluating and enhancing 
+	  model robustness.
+	- **Transferability**:
+	  Adversarial examples crafted using PGD on one model often transfer well
+	  to other models, demonstrating its effectiveness in generating 
+	  universal perturbations.
+	- **Stability**:
+	  PGD attacks are less sensitive to the choice of hyperparameters, 
+	  providing a stable and reliable method for crafting adversarial 
+	  examples. [zdroj](https://medium.com/@zachariaharungeorge/unveiling-the-power-of-projected-gradient-descent-in-adversarial-attacks-2f92509dde3c)
