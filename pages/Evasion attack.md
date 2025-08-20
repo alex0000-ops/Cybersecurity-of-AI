@@ -133,3 +133,5 @@
 -
 -
 - ## Carlini & Wagner attack
+- An adversarial loss to make the generated image actually adversarial, i.e., is capable of fooling image classifiers.
+- An image distance loss to constraint the quality of the adversarial examples so as not to make the perturbation too obvious to the naked eye.
