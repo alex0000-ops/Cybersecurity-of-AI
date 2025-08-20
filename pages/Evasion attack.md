@@ -56,5 +56,6 @@
   
   At its core, FGSM is a white-box attack, meaning it requires knowledge of the model’s architecture and parameters. The idea is to perturb the input data by adding a small amount of noise based on the gradient of the loss with respect to the input. The simplicity of FGSM lies in its effectiveness in creating adversarial examples with minimal computational cost. [zdroj](https://medium.com/@zachariaharungeorge/a-deep-dive-into-the-fast-gradient-sign-method-611826e34865)
 - ![image.png](../assets/image_1755707089154_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
-- ![image.png](../assets/image_1755707276957_0.png) [zdroj]()
+- ![image.png](../assets/image_1755707276957_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
+-
 -
