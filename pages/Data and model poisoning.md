@@ -102,6 +102,11 @@
 	-
 -
 	- --spada pod supply chain poisoning
+	- ###
+	- Kompromitované open-source datasety
+	- Podvrhnuté pretrained weights (HuggingFace, GitHub)
+	- Dataset curation attacks (crowdsourcing, weak supervision)
+-
 - If weight poisoning at fine-tuning time can be already threatening, an even worse scenario could happen if the **weights are poisoned in the pre-training phase introducing vulnerabilities that can still be exploited *_after*_ fine-tuning**. Exposing a poisoned pre-trained model online instead of a poisoned training set for fine-tuning is much more subtle because deep learning models are shady by definition and it’s much harder to detect adversarial alterations. [4](https://towardsdatascience.com/backdoor-attacks-on-language-models-can-we-trust-our-models-weights-73108f9dcb1f/)
 -
 - Clustering methods can be particularly effective in spotting outliers. Advanced ML models can learn to recognize patterns associated with poisoned data, providing an additional layer of security.
