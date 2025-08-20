@@ -132,3 +132,4 @@
 - ![image.png](../assets/image_1755712954156_0.png) [zdroj](https://jonathan-hui.medium.com/adversarial-attacks-b58318bb497b)
 -
 -
+- ## Carlini & Wagner attack
