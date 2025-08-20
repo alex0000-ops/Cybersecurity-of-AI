@@ -70,6 +70,8 @@
   
   Putting it all together, the adversarial *xₐₑ*example is crafted to maximize the loss, causing misclassification while ensuring the perturbation is small enough to remain imperceptible. [zdroj](https://medium.com/@zachariaharungeorge/a-deep-dive-into-the-fast-gradient-sign-method-611826e34865)
 - ![image.png](../assets/image_1755707089154_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
+-
+- ![image.png](../assets/image_1755708432512_0.png)[zdroj ]
 - ![image.png](../assets/image_1755707276957_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
 - ### Advantages of FGSM
 	- Simplicity — FGSM is easy to understand and implement.
