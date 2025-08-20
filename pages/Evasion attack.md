@@ -114,3 +114,12 @@
 	  PGD attacks are less sensitive to the choice of hyperparameters, 
 	  providing a stable and reliable method for crafting adversarial 
 	  examples. [zdroj](https://medium.com/@zachariaharungeorge/unveiling-the-power-of-projected-gradient-descent-in-adversarial-attacks-2f92509dde3c)
+-
+- ## Jacobian-based Saliency Map Attack (JSMA)
+- This [paper](https://arxiv.org/pdf/1511.07528.pdf)introduces another attack called JSMA. This is a greedy algorithm that 
+  undergoes many iterations which each iteration changes one pixel at a 
+  time to increase the targeted misclassification. It computes ∇Z(x) 
+  (which Z is the logit score for the target label) for a saliency map. 
+  Next, it picks and changes the most likely pixel that makes that largest
+   increase (largest gradient). The iterations continue until either a set
+   threshold of pixels is modified or it succeeds in misclassify the data.
