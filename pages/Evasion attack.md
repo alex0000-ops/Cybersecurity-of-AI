@@ -34,6 +34,8 @@
 	- reinforcement learning-base attacks
 	- Transferability Exploits
 -
+- --techniky podla znalosti utocnika
+-
 -
 - Vulnerabilities in Machine Learning Algorithms Exploited by Evasion Attacks
 	- Overreliance on Statistical Patterns
