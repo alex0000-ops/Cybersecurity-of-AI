@@ -71,7 +71,19 @@
   Putting it all together, the adversarial *xₐₑ*example is crafted to maximize the loss, causing misclassification while ensuring the perturbation is small enough to remain imperceptible. [zdroj](https://medium.com/@zachariaharungeorge/a-deep-dive-into-the-fast-gradient-sign-method-611826e34865)
 - ![image.png](../assets/image_1755707089154_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
 -
-- ![image.png](../assets/image_1755708432512_0.png)[zdroj ]
+- ![image.png](../assets/image_1755708432512_0.png)[zdroj](https://neptune.ai/blog/adversarial-attacks-on-neural-networks-exploring-the-fast-gradient-sign-method)
+  
+  In the image above, we see two arrows representing two different ways of
+   adjusting gradients to achieve a goal. The equation on the left hand 
+  side, as you might have probably guessed correctly, is the fundamental 
+  equation involved in training neural networks. Naturally, the gradients 
+  computed point to the direction that maximizes the loss. The negative 
+  sign in the **neural networking training equation **ensures
+   that the gradient points in the opposite direction – the direction that
+   minimizes the loss. That is not the case with the equation on the right
+   hand side which is the equation involved in fooling the neural network.
+   Since we want to maximize the loss, we apply the gradients in their 
+  natural form, so to speak.
 - ![image.png](../assets/image_1755707276957_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
 - ### Advantages of FGSM
 	- Simplicity — FGSM is easy to understand and implement.
