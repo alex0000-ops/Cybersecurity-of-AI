@@ -133,6 +133,12 @@
 	- **Differential Privacy** – znižuje účinnosť poisoning útokov,
 	- **K-means / clustering detectory**,
 	- **Spectral signatures** – špecificky na backdoor detekciu.
+	- **Data provenance & auditing**
+	- **Outlier detection / clustering methods**
+	- **Spectral signatures / backdoor detection**
+	- **Differential Privacy** (redukuje vplyv jednotlivých vzoriek)
+	- **Adversarial training / robust training**
+	- **Ensemble methods** (robustnosť voči anomáliám)
 -
 - --tieto defence strategies este rozpisat
 - ![image.png](../assets/image_1755703087300_0.png)
