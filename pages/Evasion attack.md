@@ -140,3 +140,4 @@
 - --black box
   attack scenario where the attackers can only observe the outputs of a model that they are trying to attack. For example, attacking a machine earning model via an API is considered a blackbox attack since one can only provide different inputs and observe the outputs. [zdroj](https://medium.com/element-ai-research-lab/tricking-a-machine-into-thinking-youre-milla-jovovich-b19bf322d55c)
 -
+-
