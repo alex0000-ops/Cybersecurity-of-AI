@@ -93,6 +93,11 @@
 -
 -
 - ## Projected Gradient Descent (PGD)
+- PGD operates by applying small but iteratively adjusted perturbations to the input data, aimed at maximizing the model's prediction error. It's a more refined approach where the attacker can control the size of these 
+  perturbations and the number of iterations, allowing a careful balance 
+  between making the adversarial examples effective and keeping them 
+  undetectable.
+-
 - Advantage of PGD:
 	- **Robust Adversarial Examples**:
 	  PGD is known for generating adversarial examples that are robust across
