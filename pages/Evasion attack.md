@@ -51,4 +51,6 @@
 - [Audio Adversarial Examples: Targeted Attacks on Speech-to-Text](https://arxiv.org/abs/1801.01944)
 - [Mitigating Evasion Attacks to Deep Neural Networks via Region-based Classification](https://dl.acm.org/doi/10.1145/3134600.3134606)
 -
+- --white box
+-
 -
