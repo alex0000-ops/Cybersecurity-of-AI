@@ -125,7 +125,5 @@
 -
 -
 - ## DeepFool
-- This algorithm searches for an adversary with the smallest possible perturbation. The algorithm imagines the classifier’s decision space being divided by linear hyperplane boundaries that divide the decision to select different classes. It then tries to shift the image’s decision space location directly towards the closest decision boundary. However,
-   the decision boundaries are often non-linear, so the algorithm 
-  completes the perturbation iteratively until it passes a decision 
-  boundary.
+- This algorithm searches for an adversary with the smallest possible perturbation. The algorithm imagines the classifier’s decision space being divided by linear hyperplane boundaries that divide the decision to select different classes. It then tries to shift the image’s decision space location directly towards the closest decision boundary. However, the decision boundaries are often non-linear, so the algorithm completes the perturbation iteratively until it passes a decision boundary.
+- ![image.png](../assets/image_1755712806049_0.png)[zdroj](https://www.neuralception.com/adversarialexamples-deepfool)
