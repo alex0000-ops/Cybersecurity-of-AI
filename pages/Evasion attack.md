@@ -93,10 +93,13 @@
 -
 -
 - ## Projected Gradient Descent (PGD)
-- PGD operates by applying small but iteratively adjusted perturbations to the input data, aimed at maximizing the model's prediction error. It's a more refined approach where the attacker can control the size of these 
-  perturbations and the number of iterations, allowing a careful balance 
-  between making the adversarial examples effective and keeping them 
-  undetectable.
+- PGD operates by applying small but iteratively adjusted perturbations to the input data, aimed at maximizing the model's prediction error. It's a more refined approach where the attacker can control the size of these perturbations and the number of iterations, allowing a careful balance 
+  between making the adversarial examples effective and keeping them undetectable. [zdroj](https://www.kaggle.com/discussions/general/464481)
+	- **Key Features of PGD:**
+		- Iterative Nature: Allows thorough exploration of the model's loss surface.
+		- Fine-grained Control: Adjustments in step size and iterations for balance.
+- Evasion of Defenses: Capability to bypass defences designed for simpler attacks.
+- Flexibility: Supports both non-targeted and targeted attacks.
 -
 - Advantage of PGD:
 	- **Robust Adversarial Examples**:
