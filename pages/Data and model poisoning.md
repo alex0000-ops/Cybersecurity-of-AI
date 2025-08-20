@@ -98,6 +98,7 @@
 	  during deployment, rendering the model useless and unreliable.
 	-
 	- **data manipulation** -  involves altering the existing data within the training set through various methods. This includes adding incorrect data to skew results, removing essential data points that would otherwise guide accurate learning, or injecting adversarial samples designed to cause the model to misclassify or behave unpredictably. These attacks severely degrade the performance of the ML model if unidentified during training.
+	  + deletion
 	-
 -
 	- --spada pod supply chain poisoning
@@ -128,7 +129,7 @@
 	- **K-means / clustering detectory**,
 	- **Spectral signatures** – špecificky na backdoor detekciu.
 -
-- --tieto defence strategies es
+- --tieto defence strategies este rozpisat
 - ![image.png](../assets/image_1755703087300_0.png)
 - ![image.png](../assets/image_1755703112407_0.png)
 -
