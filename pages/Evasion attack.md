@@ -64,9 +64,9 @@
 - ### How FGSM Works
   
   To comprehend the mechanics of the Fast Gradient Sign Method (FGSM), let’s break down the key steps with mathematical expressions.
-- ** Computing the Gradient:  **Let *x* be the input data, *y* the true label, and *J(θ,x,y)* the loss function of the model with parameters *θ*. The gradient *∇ₓJ(θ,x,y)* is computed as*∇ₓJ(θ,x,y) = ∂x/∂J.*
+- Computing the Gradient:  **Let *x* be the input data, *y* the true label, and *J(θ,x,y)* the loss function of the model with parameters *θ*. The gradient *∇ₓJ(θ,x,y)* is computed as*∇ₓJ(θ,x,y) = ∂x/∂J.*
 - Generating the Adversarial Example:  The perturbation δ is calculated by taking the sign of the gradient. i.e. *δ = ϵ⋅sign(∇ₓJ(θ,x,y))*, where ϵ is the constant controlling the magnitude of the perturbation.
-- **Updating the Input: **The adversarial example *xₐₑ* is created by adding the perturbation to the original i.e. *xₐₑ = x + δ*
+- Updating the Input: The adversarial example *xₐₑ* is created by adding the perturbation to the original i.e. *xₐₑ = x + δ*
   
   Putting it all together, the adversarial *xₐₑ*example is crafted to maximize the loss, causing misclassification while ensuring the perturbation is small enough to remain imperceptible. [zdroj](https://medium.com/@zachariaharungeorge/a-deep-dive-into-the-fast-gradient-sign-method-611826e34865)
 - ![image.png](../assets/image_1755707089154_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
