@@ -90,3 +90,7 @@
 - ## Basic Iterative Method (BIM)
 - Is simple extension of the Fast Gradient Sign Method, where instead of taking one large step, it takes an iterative approach by applying FGSM multiple times to an image with step size *α*,
    the change in pixel value per iteration. The resulting adversary can then be clipped to limit the maximum perturbance for each pixel. [zdroj](https://www.neuralception.com/adversarialexamples-bim/)
+-
+-
+- ## Projected Gradient Descent (PGD)
+-
