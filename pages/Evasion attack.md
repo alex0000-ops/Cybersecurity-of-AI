@@ -80,7 +80,7 @@
 	- Simplicity — FGSM is easy to understand and implement.
 	- Efficiency — It requires only one forward and backward pass through the model.
 	- Transferability — Adversarial examples generated with FGSM on one model often transfer to other models.
--
+	-
 - ### Limitations and Mitigations
 	- Limited Robustness — Adversarial examples crafted by FGSM may not be robust to diverse transformations.
 	- Known Vulnerability — FGSM is vulnerable to defense strategies, prompting the
