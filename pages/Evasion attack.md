@@ -72,12 +72,11 @@
 - ![image.png](../assets/image_1755707089154_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
 - ![image.png](../assets/image_1755707276957_0.png) [zdroj]({{video https://www.youtube.com/watch?v=oZYgaD004Dw}})
 - ### Advantages of FGSM
-- Simplicity — FGSM is easy to understand and implement.
-- Efficiency — It requires only one forward and backward pass through the model.
-- Transferability — Adversarial examples generated with FGSM on one model often transfer to other models.
+	- Simplicity — FGSM is easy to understand and implement.
+	- Efficiency — It requires only one forward and backward pass through the model.
+	- Transferability — Adversarial examples generated with FGSM on one model often transfer to other models.
 -
 - ### Limitations and Mitigations
+	- Limited Robustness — Adversarial examples crafted by FGSM may not be robust to diverse transformations.
 	- Known Vulnerability — FGSM is vulnerable to defense strategies, prompting the
 	  need for more sophisticated adversarial training methods.[zdroj](https://medium.com/@zachariaharungeorge/a-deep-dive-into-the-fast-gradient-sign-method-611826e34865)
-	- Limited Robustness — Adversarial examples crafted by FGSM may not be robust to diverse transformations.
--
