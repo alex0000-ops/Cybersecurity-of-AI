@@ -100,7 +100,7 @@
 	- **data manipulation** -  involves altering the existing data within the training set through various methods. This includes adding incorrect data to skew results, removing essential data points that would otherwise guide accurate learning, or injecting adversarial samples designed to cause the model to misclassify or behave unpredictably. These attacks severely degrade the performance of the ML model if unidentified during training.
 	-
 -
-- --spada pod supply chain poisoning
+	- --spada pod supply chain poisoning
 - If weight poisoning at fine-tuning time can be already threatening, an even worse scenario could happen if the **weights are poisoned in the pre-training phase introducing vulnerabilities that can still be exploited *_after*_ fine-tuning**. Exposing a poisoned pre-trained model online instead of a poisoned training set for fine-tuning is much more subtle because deep learning models are shady by definition and it’s much harder to detect adversarial alterations. [4](https://towardsdatascience.com/backdoor-attacks-on-language-models-can-we-trust-our-models-weights-73108f9dcb1f/)
 -
 - Clustering methods can be particularly effective in spotting outliers. Advanced ML models can learn to recognize patterns associated with poisoned data, providing an additional layer of security.
@@ -127,6 +127,7 @@
 	- **Differential Privacy** – znižuje účinnosť poisoning útokov,
 	- **K-means / clustering detectory**,
 	- **Spectral signatures** – špecificky na backdoor detekciu.
+- ![image.png](../assets/image_1755703087300_0.png)
 -
 -
 - --impact
