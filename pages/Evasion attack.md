@@ -52,6 +52,8 @@
 - [Mitigating Evasion Attacks to Deep Neural Networks via Region-based Classification](https://dl.acm.org/doi/10.1145/3134600.3134606)
 -
 - --white box
+- ![image.png](../assets/image_1755711487929_0.png)
+-
 - attack scenario where the attackers have complete access to the model that they want to attack. As such they know the model’s architecture and parameters [zdroj](https://medium.com/element-ai-research-lab/tricking-a-machine-into-thinking-youre-milla-jovovich-b19bf322d55c)
 - ## Fast Gradient Sign Method (FGSM)
   
