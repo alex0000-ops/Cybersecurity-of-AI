@@ -121,3 +121,11 @@
 - This [paper](https://arxiv.org/pdf/1511.07528.pdf) introduces another attack called JSMA. This is a greedy algorithm that undergoes many iterations which each iteration changes one pixel at a 
   time to increase the targeted misclassification. It computes ∇Z(x) (which Z is the logit score for the target label) for a saliency map. Next, it picks and changes the most likely pixel that makes that largest
    increase (largest gradient). The iterations continue until either a set threshold of pixels is modified or it succeeds in misclassify the data. [zdroj](https://jonathan-hui.medium.com/adversarial-attacks-b58318bb497b)
+-
+-
+-
+- ## DeepFool
+- This algorithm searches for an adversary with the smallest possible perturbation. The algorithm imagines the classifier’s decision space being divided by linear hyperplane boundaries that divide the decision to select different classes. It then tries to shift the image’s decision space location directly towards the closest decision boundary. However,
+   the decision boundaries are often non-linear, so the algorithm 
+  completes the perturbation iteratively until it passes a decision 
+  boundary.
