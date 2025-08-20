@@ -34,6 +34,7 @@
 	- reinforcement learning-base attacks
 	- Transferability Exploits
 -
+-
 - Vulnerabilities in Machine Learning Algorithms Exploited by Evasion Attacks
 	- Overreliance on Statistical Patterns
 	- High Dimensional Feature Spaces
@@ -41,6 +42,7 @@
 	- Sensitivity to Input Perturbations
 	- Generalization Challenges
 	- Implementation Considerations
+-
 -
 -
 - [DeepFooL: a simple and accurate method to fool deep neural networks](https://arxiv.org/abs/1511.04599)
