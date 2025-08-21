@@ -44,3 +44,8 @@
   the underlying patterns. This can result in the model performing very well on the data it was trained on but poorly on new data it hasn’t seen before. Regularisation works by adding a penalty term to the loss 
   function that encourages the model to be more straightforward and generalisable. This means that the model will fit the training data and perform well on new data. [zdroj](https://www.michalsons.com/blog/membership-inference-attacks-a-new-ai-security-risk/64440)
 -
+-
+- **Privacy Breach:** The attack may reveal sensitive 
+  information about individuals whose data was used to train the model, 
+  which could include personal information or medical records.
+-
