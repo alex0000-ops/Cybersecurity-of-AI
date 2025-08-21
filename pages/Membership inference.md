@@ -13,7 +13,6 @@
    to have knowledge about the inner parameters of the target machine 
   learning model. Instead, the attacker only knows the model’s algorithm 
   and architecture (e.g., SVM, neural network, etc.) or the service used 
-  to create the model.
-   [zdroj](https://bdtechtalks.com/2021/04/23/machine-learning-membership-inference-attacks/)
+  to create the model. [zdroj](https://bdtechtalks.com/2021/04/23/machine-learning-membership-inference-attacks/)
 - machine learning as a service (MaaS)
 -
