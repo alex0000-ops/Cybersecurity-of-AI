@@ -37,3 +37,6 @@
 	- **Data-augmentation-based MIA**: semi-supervised prístup s **weak/strong** augmentáciami a tréningom na **agreement** predikcií. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 	- **MIA na diffusion modeloch**: **kvantilová regresia** učí predikovať **distribúciu reconstruction loss** pre odhalenie členstva. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 -
+- --mitigation
+- **Differential ****privacy. **It’s a technique you can use to protect personal information by adding noise to it.
+-
