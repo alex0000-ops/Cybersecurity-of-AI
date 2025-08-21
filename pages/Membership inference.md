@@ -15,6 +15,14 @@
   and architecture (e.g., SVM, neural network, etc.) or the service used 
   to create the model. [zdroj](https://bdtechtalks.com/2021/04/23/machine-learning-membership-inference-attacks/)
 - machine learning as a service (MaaS)
+-
+- Základné postupy útoku
+	- **Shadow dataset + shadow model**: útočník si vytvorí „tieňové“ dáta a model(y), aby napodobnil správanie cieľového modelu. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+	- **API probing/investigácia**: zisťovanie počtu tried, vlastností výstupu, formátu pravdepodobnostného vektora atď. cez dotazovanie API. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+	- **Generovanie shadow vzoriek**: štyri prístupy — **štatistické**, **active-learning**, **query-based** a **region-based** generovanie dát. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+	- **Tréning útokového modelu**: binárny klasifikátor nad výstupným pravdepodobnostným vektorom (rozhoduje „member vs non-member“). [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+- ![image.png](../assets/image_1755803406231_0.png){:height 832, :width 780}[zdroj](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
+-
 - Konkrétne techniky/varianty MIA
 	- **Likelihood Ratio Attack (LRA)**: využíva štatistiku a **confidence scores** (často so shadow modelmi) na rozhodnutie o členstve. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 	- **MIA proti in-context learningu** (LLM): kombinácie ako **GAP attack**, **Inquiry** (pýta sa na známe sekvencie), **Repeat**, **Brainwash** (zámerné zavádzanie). [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
