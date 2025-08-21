@@ -47,5 +47,6 @@
 - --risk
 - **Privacy Breach:** The attack may reveal sensitive information about individuals whose data was used to train the model, which could include personal information or medical records.
 - **Adversarial Purposes:** They want to gain insight into the composition of the training data, potentially valuable to craft other attacks or to understand biases in the data.
-- **Competitive Advantage: **By reverse engineering the training dataset of a competitor’s model, an attacker could train their own model with similar characteristics. These models are called “shadow 
-  models”
+- **Competitive Advantage:** By reverse engineering the training dataset of a competitor’s model, an attacker could train their own model with similar characteristics. These models are called “shadow 
+  models” [zdroj](https://www.fuzzylabs.ai/blog-post/membership-inference-attacks-on-llms)
+-
