@@ -40,12 +40,7 @@
 - --mitigation
 - **Differential privacy.** It’s a technique you can use to protect personal information by adding noise to it.
 - **Adversarial training.**This security technique involves training a model on both normal and adversarial examples.
-- **Regularisation.** It’s a technique to prevent overfitting in machine learning models. Overfitting occurs when a model 
-  becomes too complex and starts to fit the noise in the data rather than 
-  the underlying patterns. This can result in the model performing very 
-  well on the data it was trained on but poorly on new data it hasn’t seen
-   before. Regularisation works by adding a penalty term to the loss 
-  function that encourages the model to be more straightforward and 
-  generalisable. This means that the model will fit the training data and 
-  perform well on new data. To use an analogy, think of overfitting as 
-  memorising answers to a test.
+- **Regularisation.** It’s a technique to prevent overfitting in machine learning models. Overfitting occurs when a model becomes too complex and starts to fit the noise in the data rather than 
+  the underlying patterns. This can result in the model performing very well on the data it was trained on but poorly on new data it hasn’t seen before. Regularisation works by adding a penalty term to the loss 
+  function that encourages the model to be more straightforward and generalisable. This means that the model will fit the training data and perform well on new data. [zdroj](https://www.michalsons.com/blog/membership-inference-attacks-a-new-ai-security-risk/64440)
+-
