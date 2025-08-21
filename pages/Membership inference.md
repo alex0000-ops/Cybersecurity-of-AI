@@ -38,5 +38,5 @@
 	- **MIA na diffusion modeloch**: **kvantilová regresia** učí predikovať **distribúciu reconstruction loss** pre odhalenie členstva. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 -
 - --mitigation
-- **Differential ****privacy. **It’s a technique you can use to protect personal information by adding noise to it.
+- **Differential privacy. **It’s a technique you can use to protect personal information by adding noise to it.
 -
