@@ -17,13 +17,15 @@
 - machine learning as a service (MaaS)
 - ![image.png](../assets/image_1755803406231_0.png)[zdroj](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
   
-  Konkrétne techniky/varianty MIA
+  
+  Základné postupy útoku
+	- Konkrétne techniky/varianty MIA
 	- **Likelihood Ratio Attack (LRA)**: využíva štatistiku a **confidence scores** (často so shadow modelmi) na rozhodnutie o členstve. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 	- **MIA proti in-context learningu** (LLM): kombinácie ako **GAP attack**, **Inquiry** (pýta sa na známe sekvencie), **Repeat**, **Brainwash** (zámerné zavádzanie). [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 	- **MIA na syntetických zdravotných dátach**: zneužitie unikátnych „**signature**“ čŕt v EMR, ktoré sa môžu replikovať a prezrádzať členstvo. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 	- **Similarity-distribution-based MIA**: pracuje s **distribúciou podobnosti** medzi cieľovou vzorkou a referenčnými dátami. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
-- **Subpopulation-based MIA**: cieli na celé **subpopulácie** (praktickejšie, nevyžaduje veľa shadow modelov). [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
-- **User-level MIA**: využíva **metric/embedding learning** na premietnutie vstupov do latentného priestoru a inferenciu člena používateľa. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
-- **Data-augmentation-based MIA**: semi-supervised prístup s **weak/strong** augmentáciami a tréningom na **agreement** predikcií. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
-- **MIA na diffusion modeloch**: **kvantilová regresia** učí predikovať **distribúciu reconstruction loss** pre odhalenie členstva. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+	- **Subpopulation-based MIA**: cieli na celé **subpopulácie** (praktickejšie, nevyžaduje veľa shadow modelov). [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+	- **User-level MIA**: využíva **metric/embedding learning** na premietnutie vstupov do latentného priestoru a inferenciu člena používateľa. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+	- **Data-augmentation-based MIA**: semi-supervised prístup s **weak/strong** augmentáciami a tréningom na **agreement** predikcií. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+	- **MIA na diffusion modeloch**: **kvantilová regresia** učí predikovať **distribúciu reconstruction loss** pre odhalenie členstva. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 -
