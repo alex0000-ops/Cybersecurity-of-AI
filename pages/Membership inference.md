@@ -7,5 +7,13 @@
   access to the machine learning model’s parameters and just by observing 
   its output. Membership inference can cause security and privacy concerns
    in cases where the target model has been trained on sensitive 
-  information. [zdroj](https://bdtechtalks.com/2021/04/23/machine-learning-membership-inference-attacks/)
+  information.
+  
+  In membership inference attacks, the adversary does not necessarily need
+   to have knowledge about the inner parameters of the target machine 
+  learning model. Instead, the attacker only knows the model’s algorithm 
+  and architecture (e.g., SVM, neural network, etc.) or the service used 
+  to create the model.
+   [zdroj](https://bdtechtalks.com/2021/04/23/machine-learning-membership-inference-attacks/)
+- machine learning as a service (MaaS)
 -
