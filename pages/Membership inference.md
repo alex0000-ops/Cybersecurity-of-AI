@@ -18,7 +18,7 @@
 -
 - In this attack, the attacker first trains a separate machine learning model, known as a membership inference model, on the output of the target model. The attacker trains the model to predict whether a particular data point (personal information) was part of the training dataset for the target 
   model (your model). [zdroj](https://www.michalsons.com/blog/membership-inference-attacks-a-new-ai-security-risk/64440)
--
+- ![image.png](../assets/image_1755803406231_0.png){:height 832, :width 780}[zdroj](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
 -
 - Základné postupy útoku
 	- **Shadow dataset + shadow model**: útočník si vytvorí „tieňové“ dáta a model(y), aby napodobnil správanie cieľového modelu. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
@@ -27,8 +27,8 @@
 	- **Tréning útokového modelu**: binárny klasifikátor nad výstupným pravdepodobnostným vektorom (rozhoduje „member vs non-member“). [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 -
 -
-- ![image.png](../assets/image_1755805538227_0.png)
-- ![image.png](../assets/image_1755803406231_0.png){:height 832, :width 780}[zdroj](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
+- ![image.png](../assets/image_1755805538227_0.png)[zdroj](https://www.cs.ru.nl/~jhh/archive/2022/secsem/slides/Privacy-in-Machine-Learning.pdf)
+-
 -
 - Konkrétne techniky/varianty MIA
 	- **Likelihood Ratio Attack (LRA)**: využíva štatistiku a **confidence scores** (často so shadow modelmi) na rozhodnutie o členstve. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
