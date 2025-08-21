@@ -15,4 +15,5 @@
   and architecture (e.g., SVM, neural network, etc.) or the service used 
   to create the model. [zdroj](https://bdtechtalks.com/2021/04/23/machine-learning-membership-inference-attacks/)
 - machine learning as a service (MaaS)
+- ![image.png](../assets/image_1755803406231_0.png)[zdroj](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
 -
