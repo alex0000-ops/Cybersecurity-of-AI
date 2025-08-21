@@ -25,6 +25,9 @@
 	- **API probing/investigácia**: zisťovanie počtu tried, vlastností výstupu, formátu pravdepodobnostného vektora atď. cez dotazovanie API. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 	- **Generovanie shadow vzoriek**: štyri prístupy — **štatistické**, **active-learning**, **query-based** a **region-based** generovanie dát. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 	- **Tréning útokového modelu**: binárny klasifikátor nad výstupným pravdepodobnostným vektorom (rozhoduje „member vs non-member“). [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
+-
+-
+- ![image.png](../assets/image_1755805538227_0.png)
 - ![image.png](../assets/image_1755803406231_0.png){:height 832, :width 780}[zdroj](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
 -
 - Konkrétne techniky/varianty MIA
