@@ -16,6 +16,10 @@
   to create the model. [zdroj](https://bdtechtalks.com/2021/04/23/machine-learning-membership-inference-attacks/)
 - machine learning as a service (MaaS)
 -
+- In this attack, the attacker first trains a separate machine learning model, known as a membership inference model, on the output of the target model. The attacker trains the model to predict whether a particular data point (personal information) was part of the training dataset for the target 
+  model (your model). [zdroj](https://www.michalsons.com/blog/membership-inference-attacks-a-new-ai-security-risk/64440)
+-
+-
 - Základné postupy útoku
 	- **Shadow dataset + shadow model**: útočník si vytvorí „tieňové“ dáta a model(y), aby napodobnil správanie cieľového modelu. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
 	- **API probing/investigácia**: zisťovanie počtu tried, vlastností výstupu, formátu pravdepodobnostného vektora atď. cez dotazovanie API. [antispoofing.org](https://antispoofing.org/membership-inference-attacks-and-countermeasures/)
