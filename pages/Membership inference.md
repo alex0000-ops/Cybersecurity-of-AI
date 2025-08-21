@@ -17,3 +17,7 @@
 - machine learning as a service (MaaS)
 - ![image.png](../assets/image_1755803406231_0.png)[zdroj](https://mindgard.ai/blog/ai-under-attack-six-key-adversarial-attacks-and-their-consequences)
 - techniky
+   likelihood radio attack
+  
+  
+  https://antispoofing.org/membership-inference-attacks-and-countermeasures/
