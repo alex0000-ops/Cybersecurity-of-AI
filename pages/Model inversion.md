@@ -1,1 +1,9 @@
--
+- Model inversion is a type of attack that uses the final output of an AI 
+  model to identify the original dataset on which the AI system was 
+  trained. In some cases, these attacks can allow attackers to reconstruct
+   the information (including sensitive characteristics) that was used to 
+  train the model. Essentially, the attacker uses one artificial 
+  intelligence to query another artificial intelligence, and asks the 
+  malicious artificial intelligence to determine what training data the 
+  victim artificial intelligence would have needed to be trained on in 
+  order to respond as it does.
