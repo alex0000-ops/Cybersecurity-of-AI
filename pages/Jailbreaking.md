@@ -38,3 +38,6 @@
 -
 - ![image.png](../assets/image_1753725593697_0.png) [image 3](https://machine-learning-made-simple.medium.com/an-introduction-to-adversarial-perturbation-5e6c61d84b71)
 -
+-
+- https://www.theverge.com/23599441/microsoft-bing-ai-sydney-secret-rules?utm_source=chatgpt.com
+-
