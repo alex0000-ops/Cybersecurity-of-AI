@@ -24,6 +24,10 @@
 			- **Payload splitting**: Breaking an attack into multiple, seemingly innocent parts that combine to form the full exploit
 			- **Recursive injection**: Nesting malicious prompts within legitimate-looking ones, creating layers of deception
 			-
+			-
+			-
+			-
+			-
 			- These techniques can work in combination [3](https://www.promptfoo.dev/blog/prompt-injection/#common-techniques)
 			-
 		-
