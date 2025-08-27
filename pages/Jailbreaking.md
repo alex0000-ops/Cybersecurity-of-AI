@@ -10,6 +10,8 @@
 	  
 	  *Crescendo technique
 -
+- ![image.png](../assets/image_1756324712708_0.png)
+-
 - A “classic” jailbreak happens when an authorized operator of the system crafts jailbreak inputs in order to extend their own powers over the 
   system. [2](https://www.microsoft.com/en-us/security/blog/2024/06/04/ai-jailbreaks-what-they-are-and-how-they-can-be-mitigated/)
 - Indirect prompt injection happens when a system processes data  controlled by a third party (e.g., analyzing incoming emails or documents editable by someone other than the operator) who inserts a 
