@@ -4,4 +4,4 @@
 -
 - ![image.png](../assets/image_1756315968196_0.png) [zdroj](https://infermatic.ai/ask/?question=What%20are%20the%20differences%20between%20a%20membership%20inference%20attack%20and%20a%20model%20inversion%20attack?)
 -
-- - neviem ci v tom pokracovat kedze
+- - neviem ci v tom pokracovat kedze sa
