@@ -25,7 +25,7 @@
 			- **Recursive injection**: Nesting malicious prompts within legitimate-looking ones, creating layers of deception
 			-
 			-
-			-
+			- ![image.png](../assets/image_1756324424800_0.png) [zdroj](https://www.arthur.ai/blog/from-jailbreaks-to-gibberish-understanding-the-different-types-of-prompt-injections)
 			-
 			-
 			- These techniques can work in combination [3](https://www.promptfoo.dev/blog/prompt-injection/#common-techniques)
