@@ -10,7 +10,7 @@
 	  
 	  *Crescendo technique
 -
-- ![image.png](../assets/image_1756324712708_0.png)
+- ![image.png](../assets/image_1756324712708_0.png) [zdroj](https://www.confident-ai.com/blog/how-to-jailbreak-llms-one-step-at-a-time)
 -
 - A “classic” jailbreak happens when an authorized operator of the system crafts jailbreak inputs in order to extend their own powers over the 
   system. [2](https://www.microsoft.com/en-us/security/blog/2024/06/04/ai-jailbreaks-what-they-are-and-how-they-can-be-mitigated/)
