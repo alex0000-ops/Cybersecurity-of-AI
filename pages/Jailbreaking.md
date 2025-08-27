@@ -4,6 +4,7 @@
    unintended outputs through adversarial prompts. Jailbreaking involves bypassing safety mechanisms in LLMs that are designed to prevent harmful outputs. Jailbreak Prompts exploit vulnerabilities in the model's safety filters,often by using contextual manipulation, roleplay scenarios, or 
   alignment hacking. [1](https://learnprompting.org/blog/injection_jailbreaking)
 	- ####  DAN (Do Anything Now) Prompt
+		- ![image.png](../assets/image_1756324334763_0.png) [zdroj](https://blog-en.fltech.dev/entry/2024/12/12/mlt_scrty_en)
 	- #### Roleplay Manipulation
 	- #### Pretending as Another System
 	  
