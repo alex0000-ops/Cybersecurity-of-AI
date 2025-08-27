@@ -40,4 +40,6 @@
 -
 -
 - https://www.theverge.com/23599441/microsoft-bing-ai-sydney-secret-rules?utm_source=chatgpt.com
+- https://www.theguardian.com/technology/2023/mar/08/chatgpt-alter-ego-dan-users-jailbreak-ai-program-to-get-around-ethical-safeguards?utm_source=chatgpt.com
+- https://www.wired.com/story/chatgpt-jailbreak-generative-ai-hacking/?utm_source=chatgpt.com
 -
