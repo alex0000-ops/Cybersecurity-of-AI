@@ -45,4 +45,4 @@
 - ![image.png](../assets/image_1753346459692_0.png) [image 2](https://www.ibm.com/think/topics/prompt-injection)
 -
 - https://embracethered.com/blog/posts/2024/m365-copilot-prompt-injection-tool-invocation-and-data-exfil-using-ascii-smuggling/?utm_source=chatgpt.com
--
+- https://embracethered.com/blog/posts/2024/github-copilot-chat-prompt-injection-data-exfiltration/?utm_source=chatgpt.com
