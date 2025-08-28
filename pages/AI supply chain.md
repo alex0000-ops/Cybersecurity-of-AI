@@ -26,7 +26,9 @@
 	- Label poisoning: - Example: A sentiment analysis model is fine-tuned with 
 	  reviews where positive text about a competitor's product is 
 	  intentionally mislabeled as "negative."
--
+- **2. Attacks on the storage and distribution (supply chain) phase: post-training tampering**
+  These attacks exploit weaknesses in the way models are stored, shared, and distributed — occurring after the model has been trained but before it is deployed.
+- **Weight-level manipulation:**
 -
 - Risks:
 	- #### [Traditional Third-party Package Vulnerabilities](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#1-traditional-third-party-package-vulnerabilities)
