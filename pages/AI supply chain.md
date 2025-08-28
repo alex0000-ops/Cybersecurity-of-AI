@@ -18,7 +18,6 @@
 -
 - Risks:
 	- #### [Traditional Third-party Package Vulnerabilities](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#1-traditional-third-party-package-vulnerabilities)
-	-
 -
 - -- priklady/scenarios
 - https://owasp.org/www-project-machine-learning-security-top-10/docs/ML06_2023-AI_Supply_Chain_Attacks
