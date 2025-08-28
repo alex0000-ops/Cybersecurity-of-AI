@@ -1,4 +1,5 @@
--
+- Útoky zneužívajúce dôveru v externé komponenty (modely, datasety, knižnice, pluginy) použité v AI systémoch.
+- Cieľom je často zasiahnuť model pred jeho nasadením alebo infikovať inferenčné prostredie nepriamou cestou.
 -
 -
 - Lifecycle:      `artifacts_supply` / `training` / `data_pipeline`
