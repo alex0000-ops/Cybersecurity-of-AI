@@ -17,3 +17,8 @@
 	- pluging and AI agents with own code [zdroj](https://protectai.com/threat-research/unveiling-ai-supply-chain-attacks-on-hugging-face)
 	-
 	-
+-
+-
+- -- priklady/scenarios
+- https://owasp.org/www-project-machine-learning-security-top-10/docs/ML06_2023-AI_Supply_Chain_Attacks
+-
