@@ -11,4 +11,5 @@
 - -- ako utok prebieha
 -
 - vkladanie backdoor alebo skodlive spravanie:
+	- pretrained models from opensource repositories (Hugging Face, Github)
 	-
