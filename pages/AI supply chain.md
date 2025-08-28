@@ -1,8 +1,9 @@
-- --
+- --definicia
 - Útoky zneužívajúce dôveru v externé komponenty (modely, datasety, knižnice, pluginy) použité v AI systémoch.
   Útok zasahuje komponenty modelu ešte pred jeho nasadením, čím ohrozuje inferenčné prostredie bez priameho prístupu k nemu.
 - LLM supply chains are susceptible to various vulnerabilities, which can affect the integrity of training data, models, and deployment platforms. These risks can result in biased outputs, security breaches, or system failures. While traditional software vulnerabilities focus on issues like code flaws and dependencies, in ML the risks also extend to third-party pre-trained models and data. [zdroj](https://genai.owasp.org/llmrisk/llm032025-supply-chain/)
 -
+- --zaradenie
 - Lifecycle:      `artifacts_supply` / `training` / `data_pipeline`
 - Harm:            `integrity` / `privacy`
 - LLM tag:        [LLM03: 2025 Supply Chain Vulnerabilities ](https://genai.owasp.org/llmrisk/llm032025-supply-chain/)
