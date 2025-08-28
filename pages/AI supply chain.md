@@ -25,7 +25,7 @@
 -
 - --mitigation strategies
 - First, companies need to treat AI integrations the same way they treat any other third-party dependency—with skepticism until proven otherwise. That means doing full vetting before bringing in an external AI model, tool, or service. Vet the model’s origin, scrutinize the data sources it was trained on, and if possible, run security testing against it before deploying it in production environments.
--
+- Second, organizations should harden their development and deployment pipelines. That includes using Software Bills of Materials (SBOMs). Knowing exactly what models, datasets, and libraries are embedded in your systems—and tracking changes over time—makes it harder for malicious updates or poisoned models to slip through unnoticed.
 -
 - -- priklady/scenarios
 - https://owasp.org/www-project-machine-learning-security-top-10/docs/ML06_2023-AI_Supply_Chain_Attacks
