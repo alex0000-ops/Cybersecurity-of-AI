@@ -12,5 +12,6 @@
 -
 - vkladanie backdoor alebo skodlive spravanie:
 	- pretrained models from opensource repositories (Hugging Face, Github)
-	- data
+	- datasets with triggers (clean-label backdoor)
+	- Python package (typosquatting, dependency confusion)
 	-
