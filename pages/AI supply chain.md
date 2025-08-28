@@ -19,6 +19,7 @@
 - Risks:
 	- #### [Traditional Third-party Package Vulnerabilities](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#1-traditional-third-party-package-vulnerabilities)
 	- ####   [Vulnerable Pre-Trained Model](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#4-vulnerable-pre-trained-model)
+	- #### [Vulnerable LoRA adapters](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#6-vulnerable-lora-adapters)
 	-
 -
 - -- priklady/scenarios
