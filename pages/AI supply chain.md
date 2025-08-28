@@ -13,7 +13,7 @@
 - vkladanie backdoor alebo skodlive spravanie:
 	- pretrained models from opensource repositories (Hugging Face, Github)
 	- datasets with triggers (clean-label backdoor)
-	- Python package (typosquatting, dependency confusion)
-	- pluging and AI agents with own code
+	- [Python Package Index (PyPI)](https://blog.orsinium.dev/posts/py/pypi-squatting/) and [Node Package Manager (npm)](https://blog.sonatype.com/pypi-and-npm-flooded-with-over-5000-dependency-confusion-copycats) (typosquatting, dependency confusion)
+	- pluging and AI agents with own code [zdroj](https://protectai.com/threat-research/unveiling-ai-supply-chain-attacks-on-hugging-face)
 	-
 	-
