@@ -14,4 +14,6 @@
 	- pretrained models from opensource repositories (Hugging Face, Github)
 	- datasets with triggers (clean-label backdoor)
 	- Python package (typosquatting, dependency confusion)
+	- pluging and AI agents with own code
+	-
 	-
