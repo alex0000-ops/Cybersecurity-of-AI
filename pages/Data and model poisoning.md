@@ -150,3 +150,8 @@
 - Misclassification and reduced performance
 - Bias and skewed decision-making
 - Security vulnerabilities and backdoor threats
+-
+-
+- https://www.bleepingcomputer.com/news/security/malicious-ai-models-on-hugging-face-backdoor-users-machines/?utm_source=chatgpt.com
+- https://www.vice.com/en/article/researchers-demonstrate-ai-supply-chain-disinfo-attack-with-poisongpt/?utm_source=chatgpt.com
+-
