@@ -1,4 +1,4 @@
 - Lifecycle:      `artifacts_supply` / `training` / `data_pipeline`
 - Harm:            `integrity` / `privacy`
-- LLM tag:        LLM03: Supply Chain Vulnerabilities
+- LLM tag:        [LLM03: 2025 Supply Chain Vulnerabilities ](https://genai.owasp.org/llmrisk/llm032025-supply-chain/)
 -
