@@ -1,4 +1,4 @@
 - Lifecycle:      `artifacts_supply` / `training` / `data_pipeline`
-- Harm:             `integrity` / `privacy`
-- LLM tag:  LLM08 Supply Chain Vulnerabilities
+- Harm:            `integrity` / `privacy`
+- LLM tag:        LLM03: Supply Chain Vulnerabilities
 -
