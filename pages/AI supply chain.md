@@ -33,6 +33,9 @@
 	   of model weights, by embedding arbitrary binary malware code directly into the least significant bits of a neural network's pre-trained model weights,  allowing the hidden malware to be covertly distributed within seemingly benign AI models, with minimal impact on the model's performance.
 -
 - **3. Attacks on the loading and deployment phase: exploiting the runtime environment**
+- Remote code execution (RCE) via deserialization: Some model formats (e.g., Python's pickle and older PyTorch *.pt* files) are inherently capable of executing code. Attackers embed malicious 
+  code into the serialized model file, which runs on the server when the 
+  model is loaded. - Example: A payload embedded in a *.pkl* file that opens a reverse shell back to the attacker's machine upon loading.
 -
 - Risks:
 	- #### [Traditional Third-party Package Vulnerabilities](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#1-traditional-third-party-package-vulnerabilities)
