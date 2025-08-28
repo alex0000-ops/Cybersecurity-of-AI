@@ -19,8 +19,13 @@
 	- pluging and AI agents with own code [zdroj](https://protectai.com/threat-research/unveiling-ai-supply-chain-attacks-on-hugging-face)
 -
 - **1. Attacks on the training phase: corrupting the foundation**
-	- **Data poisoning:**
+	- Data poisoning: - Example: GPT-based chatbots intentionally trained with 
 	  id:: 68b05ee9-89b4-426e-8707-ff51ff8184f6
+	  poisoned dialogue that triggers unsafe behavior when prompted with 
+	  specific inputs.
+	- Label poisoning: - Example: A sentiment analysis model is fine-tuned with 
+	  reviews where positive text about a competitor's product is 
+	  intentionally mislabeled as "negative."
 -
 -
 - Risks:
