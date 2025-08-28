@@ -9,15 +9,10 @@
 - LLM tag:        [LLM03: 2025 Supply Chain Vulnerabilities ](https://genai.owasp.org/llmrisk/llm032025-supply-chain/)
 -
 - -- ako utok prebieha
-- This opacity makes them susceptible to malicious manipulation, such as backdoors introduced during training or fine-tuning phases.
-	- makes them susceptible to malicious
-	  manipulation, such as
-- These backdoors typically remain
-  dormant under normal conditions, only activating when specific triggers
-  are introduced, leading to behaviors such as data leakage, 
-  misclassification, or unauthorized actions. Traditional security 
-  measures, including Software Bills of Materials (SBOMs) and static code 
-  analysis tools, are ill-suited to detect such threats within AI models.
+	-
+- This opacity makes them susceptible to malicious manipulation, such as backdoors introduced during training or fine-tuning phases.These backdoors typically remain dormant under normal conditions, only activating when specific triggers are introduced, leading to behaviors such as data leakage, 
+  misclassification, or unauthorized actions. Traditional security measures, including Software Bills of Materials (SBOMs) and static code analysis tools, are ill-suited to detect such threats within AI models.[zdroj](https://www.trendmicro.com/vinfo/nl/security/news/cybercrime-and-digital-threats/exploiting-trust-in-open-source-ai-the-hidden-supply-chain-risk-no-one-is-watching)
+-
 - vkladanie backdoor alebo skodlive spravanie:
 	- pretrained models from opensource repositories (Hugging Face, Github)
 	- datasets with triggers (clean-label backdoor)
