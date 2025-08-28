@@ -53,3 +53,7 @@
 - **Competitive Advantage:** By reverse engineering the training dataset of a competitor’s model, an attacker could train their own model with similar characteristics. These models are called “shadow 
   models” [zdroj](https://www.fuzzylabs.ai/blog-post/membership-inference-attacks-on-llms)
 -
+- https://bdtechtalks.com/2021/04/23/machine-learning-membership-inference-attacks/
+- https://www.sciencedirect.com/science/article/pii/S2949715924000064#sec1
+- https://www.sciencedirect.com/science/article/pii/S1532046421003063
+-
