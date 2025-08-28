@@ -26,10 +26,13 @@
 	- Label poisoning: - Example: A sentiment analysis model is fine-tuned with 
 	  reviews where positive text about a competitor's product is 
 	  intentionally mislabeled as "negative."
+	-
 - **2. Attacks on the storage and distribution (supply chain) phase: post-training tampering**
   These attacks exploit weaknesses in the way models are stored, shared, and distributed — occurring after the model has been trained but before it is deployed.
-- Weight-level manipulation: - Example: A malware is inserted by modifying a small set
-   of model weights, by embedding arbitrary binary malware code directly into the least significant bits of a neural network's pre-trained model weights,  allowing the hidden malware to be covertly distributed within seemingly benign AI models, with minimal impact on the model's performance.
+	- Weight-level manipulation: - Example: A malware is inserted by modifying a small set
+	   of model weights, by embedding arbitrary binary malware code directly into the least significant bits of a neural network's pre-trained model weights,  allowing the hidden malware to be covertly distributed within seemingly benign AI models, with minimal impact on the model's performance.
+-
+- **3. Attacks on the loading and deployment phase: exploiting the runtime environment**
 -
 - Risks:
 	- #### [Traditional Third-party Package Vulnerabilities](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#1-traditional-third-party-package-vulnerabilities)
