@@ -18,6 +18,11 @@
 	- [Python Package Index (PyPI)](https://blog.orsinium.dev/posts/py/pypi-squatting/) and [Node Package Manager (npm)](https://blog.sonatype.com/pypi-and-npm-flooded-with-over-5000-dependency-confusion-copycats) (typosquatting, dependency confusion)
 	- pluging and AI agents with own code [zdroj](https://protectai.com/threat-research/unveiling-ai-supply-chain-attacks-on-hugging-face)
 -
+- **1. Attacks on the training phase: corrupting the foundation**
+	- **Data poisoning:**
+	  id:: 68b05ee9-89b4-426e-8707-ff51ff8184f6
+-
+-
 - Risks:
 	- #### [Traditional Third-party Package Vulnerabilities](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#1-traditional-third-party-package-vulnerabilities)
 	- ####   [Vulnerable Pre-Trained Model](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM03_SupplyChain.md#4-vulnerable-pre-trained-model)
